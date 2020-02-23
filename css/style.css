@@ -1,0 +1,550 @@
+html{
+    scroll-behavior: smooth;
+}
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    font-family: 'Nanum Gothic' ;
+}
+/*******actual css start*****/
+.hdr{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(to right,rgba(42, 65, 199, 0.493),rgba(172, 13, 172, 0.384)), url(../images/tww.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    
+}
+.hdr img{
+    height: 60px;
+    height: 60px;
+    border-radius: 10px;
+}
+.navbar{
+    background-color: rgba(74, 223, 228, 0.89);
+}
+.navbar-nav{
+    font-size: 1.1rem!important;
+}
+.center-part{
+    width: 370px;
+    text-align: center;
+    position: relative;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    padding: 60px 0;
+
+}
+.center-part h3 {
+  position: relative;
+  bottom: 40px;
+  color: #0bfcfc;
+  text-transform: uppercase;
+}
+.center-part p{
+    position: relative;
+    bottom: 38px;
+    color: #55e4e4e3;
+    text-transform: capitalize;
+}
+.cntr-button a{
+    border: 1.8px solid #ffffff;
+    padding: 10px 50px;
+    text-align: center;
+    position: relative;
+    bottom: 20px;
+    color: #ffffff;
+    border-radius: 100px;
+    text-transform: uppercase;
+    transition-duration: 400ms;
+}
+
+.cntr-button a:hover{
+    text-decoration: none;
+    color: #ffffff;
+    border: none;
+    background-color: rgb(0,0,0,.2);
+    box-shadow: 0 0 20px rgb(0,0,0,.3);
+}
+.modal-body{
+    padding: 60px 0!important;
+}
+.mb-bnt button{
+    padding: 2px 30px!important;
+    position: relative;
+    font-size: 1rem!important;
+    top: 30px;
+}
+.cpanima{
+    width: 50px;
+    height: 90px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 75%;
+    border-bottom: none;
+    border-top: none;
+    border-radius: 100px;
+    box-shadow: 0 0 20px rgb(0,0,0,.2);
+}
+.cpanima i{
+    position: relative;
+    left: 50%;
+    top: 5px;
+    font-size: 1.1rem;
+    transform: translateX(-50%);
+}
+.snic{
+    animation: anm 1.4s linear infinite;
+}
+.crd{
+    width: 100%;
+    height: auto;
+}
+.crd h3{
+    color: rgba(104, 80, 80, 0.418);
+}
+.card{
+    height:60vh;
+    position: absolute;
+    top: 70px;
+    margin: 20px 0;
+    border: none!important;
+    transition-duration: 400ms;
+    background-color: rgba(225, 62, 240, 0.144)!important;
+}
+.card:hover{
+    transform: translateY(-15px);
+    box-shadow: 0 0 20px rgb(0,0,0,.3);
+}
+.card img{
+    width: 100px;
+    height: 100px;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 30px;
+    border-radius: 100px;
+    box-shadow: 0 0 20px rgb(0,0,0,.3);
+}
+.card h5{
+    position: relative;
+    top: 18%;
+    color: rgb(32, 32, 4);
+}
+.card p{
+    position: relative;
+    top: 22%;
+    color: #000000;
+}
+.card a{
+    position: relative;
+    top: 95px;
+    border: 1px solid rgb(12, 207, 198);
+    text-align: center;
+    padding: 8px 16px;
+    width: 150px;
+    border-radius: 8px;
+    font-size: .8rem;
+    color: #000000;
+    text-transform: uppercase;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: paleturquoise;
+    transition-duration: 400ms;
+}
+.card a:hover{
+    background-color: rgb(0, 255, 255);
+    border: 1px solid rgb(14, 223, 212);
+    box-shadow: 0 0 20px rgb(0,0,0,.2);
+    text-decoration: none;
+    color: #000000;
+}
+.logs--p1{
+    width: 100%;
+    height: auto;
+}
+.logs--p1 h3{
+     color: rgba(104, 80, 80, 0.418);
+}
+.box{
+    height: 300px;
+    margin-top: 30px;
+}
+.box img{
+    width: 100px;
+    height: 100px;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 20px;
+    border-radius: 100px;
+    box-shadow: 0 0 20px rgba(32, 17, 17, 0.4);
+  
+}
+
+.box p{
+    position: relative;
+    top: 60px;
+    color: rgba(17, 9, 34, 0.911);
+    font-weight: bold;
+}
+.box a{
+    position: relative;
+    top: 80px;
+    left: 16%;
+    transform: translateX(-50%);
+    border: 1px solid black;
+    padding: 10px 30px;
+    color: #000000;
+    border-radius: 100px;
+    text-align: center;
+    text-transform: uppercase;
+    background-color: rgba(255, 251, 2, 0.452);
+    border: none;
+    transition-duration: 400ms;
+}
+.box a:hover{
+    text-decoration: none;
+    box-shadow: 0 0 20px rgb(0,0,0,.2);
+    color: #000000;
+}
+.carousel-control-prev{
+    background-color: rgba(255, 19, 19, 0.342)!important;
+    height: 40px;
+    width: 40px!important;
+    position: fixed;
+    top: 40%!important;
+    border: none;
+    border-radius: 100px;
+}
+.carousel-control-next{
+    background-color: rgba(255, 19, 19, 0.342)!important;
+    height: 40px;
+    width: 40px!important;
+    position: fixed;
+    top: 40%!important;
+    border: none;
+    border-radius: 100px;
+}
+.wall{
+    width: 100%;
+   height: auto;
+}
+.wall h3{
+    color: rgba(104, 80, 80, 0.418);
+}
+.wall img{
+    margin: 30px 0;
+}
+.image-parts{
+    width: 100%;
+    height: auto;
+}
+.image-parts h3{
+    color: rgba(104, 80, 80, 0.418);
+}
+.image-parts img{
+    margin: 30px 0;
+}
+
+.image-parts p{
+    margin: 30px 0;
+}
+.image-parts a{
+    position: relative;
+    left: 35%;
+    transform: translateX(-50%);
+    padding: 8px 19px;
+    text-transform: uppercase;
+    border-radius: 100px;
+    color: rgb(252, 250, 247);
+    background-color: rgba(143, 116, 143, 0.493);
+    transition-duration: 400ms;
+
+}
+.image-parts a:hover{
+    text-decoration: none;
+    color: #ffffff;
+    box-shadow: 0 0 20px rgb(0,0,0,.2);
+}
+.prg{
+    width: 100%;
+    height: auto;
+}
+.prg h3{
+    color: rgba(104, 80, 80, 0.418);
+}
+.prg h4{
+    margin: 40px 0;
+    font-family: 'Montserrat' ;
+}
+.prg p{
+    position: relative;
+    bottom: 30px;
+    font-family: 'Montserrat' ;
+    font-size: .8rem;
+}
+.serve{
+    width: 100%;
+    height: 100vh;
+}
+.serve h3{
+    color: rgba(104, 80, 80, 0.418);
+}
+.fa-spinner{
+    animation: anmm 2s linear infinite;
+}
+
+@keyframes anmm{
+    100%{
+        transform: rotate(360deg);
+    }
+}
+
+.cnt{
+    width: 100%;
+    height: auto;
+}
+.cnt h3{
+    margin: 10px 0;
+    color: rgba(104, 80, 80, 0.418);
+}
+.cnt .cntr{
+    margin: 60px 0;
+}
+
+/*******service part*******/
+.card-2{
+    height: auto;
+    margin: 10px 0;
+
+}
+.card-header{
+    padding: 10px 0!important;
+    text-align: center;
+    font-size: 2rem;
+    color: rgb(240, 247, 248);
+    background-color: rgba(150, 122, 148, 0.4)!important;
+    text-transform: uppercase;
+}
+.card-body{
+    list-style: none;
+    font-size: 1.4rem;
+}
+.card-body li{
+    margin: 18px 0;
+    color: rgba(100, 73, 73, 0.616);
+}
+.money{
+    font-size: 2.5rem;
+}
+.card-footer{
+    padding: 16px 0!important;
+    text-align: center;
+    font-size: 1.2rem;
+    color: rgb(240, 247, 248);
+    background-color: rgba(150, 122, 148, 0.4)!important;
+    text-transform: uppercase;
+}
+.card-footer a{
+    border: 1px solid #ffffff;
+    padding: 5px 15px;
+    border-radius: 100px;
+    color: #ffffff;
+    font-size: 1.1rem;
+    transition-duration: 300ms;
+}
+.card-footer a:hover{
+    color: #ffffff;
+    text-decoration: none;
+    box-shadow: 0 0 20px rgb(0,0,0,.2);
+    background-color: rgb(0,0,0,.2);
+    border: none;
+}
+
+
+/****contact part************/
+.cntcc{
+    width: 100%;
+    height: auto;
+}
+.cntcc h3{
+    color: rgba(104, 80, 80, 0.418);
+}
+.cntcc p{
+    color: rgba(104, 80, 80, 0.418);
+}
+.form-group{
+    width: 65%;
+    position: relative;
+    left: 50%;
+    top: 30px;
+    transform: translateX(-50%);
+}
+form button{
+    position: relative;
+    top: 60px;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 5px 30px!important;
+    font-size: 1.4rem!important;
+    font-family: 'Source Sans Pro' ;
+}
+
+/****subscribe news letter****/
+.subr{
+    width: 100%;
+    height: auto;
+}
+.subr h3{
+    color: rgba(104, 80, 80, 0.418);
+}
+.subr p{
+    color: rgba(104, 80, 80, 0.418);
+}
+
+.news-input{
+    border-radius: 100px 0 0 100px!important;
+    position: relative;
+    left: 30px;
+    min-width: 40px;
+    min-height: 40px;
+}
+.bnt{
+    position: relative;
+    left: 10px;
+    border-radius: 0px 100px 100px 0px!important;
+    min-width: 40px;
+    min-height: 40px;
+}
+.bnt:hover{
+    background-color: rgb(0,0,0,.5);
+    color: #fff!important;
+    cursor: pointer;
+}
+
+/**************footer part*************/
+.ftr{
+    width: 100%;
+    height: auto;
+    background-color: rgba(57, 226, 226, 0.329);
+}
+.ftr h3{
+    color: rgba(104, 80, 80, 0.418);
+    margin: 20px 0;
+}
+.p22{
+    font-size: 1.4rem;
+}
+.ftrsec li{
+    list-style: none;
+    text-align: center;
+    margin: 10px 0;
+    font-size: 1.4rem;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+.pt{
+    font-size: 1.5rem;
+}
+.fa-facebook-official{
+    color: rgb(97, 100, 252);
+}
+.fa-instagram{
+    color: rgba(238, 113, 113, 0.678);
+}
+.fa-twitter{
+    color: rgba(56, 37, 168, 0.719);
+}
+.fa-youtube{
+    color: red;
+}
+.frb{
+    position: relative;
+    bottom: 30px;
+}
+@keyframes anm{
+    100%{
+        position: relative;
+        top: 50px;
+        opacity: 0;
+    }
+    50%{
+        color: rgb(0, 255, 255);
+        
+    }
+    0%{
+        opacity: 1;
+    }
+}
+.scrolltop{
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    font-size: 2rem;
+    color: rgb(36, 40, 255);
+    cursor: pointer;
+    
+}
+/*****media queries for mobile and tablet****/
+@media(max-width:768px){
+    .navbar{
+        text-align: center;
+    
+    }
+    .navbar-nav{
+        font-size: 1rem!important;
+    }
+    .center-part{
+        position: relative;
+        top:33%;
+    }
+    .center-part h3{
+        font-size: 1.5rem;
+    }
+    .center-part p{
+        font-size: 1rem;
+    }
+    .cntr-button a{
+        padding: 7px 25px;
+    }
+    .card{
+        position: relative;
+        left: 50%;
+        width: 350px;
+        transform: translateX(-50%);
+    }
+    .crd{
+        background:none;
+    }
+    .box a{
+        position: relative;
+        left: 28%;
+        transform: translateX(-50%);
+    }
+    .cntcc{
+        position: relative;
+        top:130%;
+    }
+    .subr{
+        top: 130%;
+        position: relative;
+    }
+    .ftr{
+        position: relative;
+        top: 130%;
+    }
+    
+}
+
+.article-part1.article-part2.prgt-1.prgt-2.ser-1.ser-2.ser-3{
+    opacity: 0;
+}
+.article-part1.animated,.article-part2.animated,.prgt-1.animated,.prgt-2.animated{
+    opacity: 1;
+}
